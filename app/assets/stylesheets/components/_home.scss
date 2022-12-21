@@ -2,10 +2,9 @@
   display: flex;
 }
 
-.bg-orange {
-  background-color: $primary-orange;
-  height: 90vh;
-  padding: 0px;
+.bg-gray{
+  height: 75vh;
+  background-color: $bg-gray;
 }
 
 .bg-brown {
@@ -21,6 +20,9 @@
   display:flex;
   align-items:center;
   justify-content:center;
+  background-color: $primary-orange;
+  height: 90vh;
+  padding: 0px;
     p {
     font-size: 45px;
     font-family: $title-subtitle;
@@ -35,6 +37,7 @@ h1{
   line-height: 55px;
   text-align: center;
 }
+
 @media (min-width: 1024px) {
   #gif-setup {
     position: absolute;
