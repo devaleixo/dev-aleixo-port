@@ -1,38 +1,36 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <%= link_to "https://github.com/devaleixo", target: '_blank', class: "nav-link" do %>
-          <i class="fa-brands fa-github fa-2x"></i>
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to  "https://www.linkedin.com/in/gabriel-aleixo-6b738b234/", target: '_blank', class: "nav-link" do %>
-          <i class="fa-brands fa-linkedin fa-2x"></i>
-         <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to  "https://www.instagram.com/0aleixo/", target: '_blank', class: "nav-link" do %>
-          <i class="fa-brands fa-instagram fa-2x"></i>
-        <% end %>
-      </li>
-     </ul>
-    <div class="icon">
-      <%= link_to "#", class: "navbar-brand" do %>
-        <%= image_tag("definitive-logo.png") %>
+<div class="nav-bar navbar-static-top">
+      <div class="container">
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href="https://github.com/devaleixo" target="_blank">
+                <i class="fa-brands fa-github fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gabriel-aleixo-6b738b234/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/0aleixo/" target="_blank">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+     <%= link_to "#", class: "navbar-brand" do %>
+     <%= image_tag("definitive-logo.png" , :id => "logo") %>
       <% end %>
+        <div class="dropdown">
+          <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#">Projects</a></li>
+            <li><a class="dropdown-item" href="#">Game Room</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <%= image_tag "https://cdn-icons-png.flaticon.com/512/2311/2311531.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <%= link_to "Projects", "#", class: "dropdown-item" %>
-              <%= link_to "Games", "#", class: "dropdown-item" %>
-            </div>
-          </li>
-
-      </ul>
-    </div>
-  </div>
-</div>

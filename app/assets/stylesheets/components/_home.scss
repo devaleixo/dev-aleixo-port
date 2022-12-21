@@ -1,0 +1,36 @@
+.presentation {
+  display: flex;
+}
+
+.bg-orange {
+  background-color: $primary-orange;
+  height: 90vh;
+}
+
+.bg-brown {
+  background-color: $secondary-brown;
+  height: 90vh;
+}
+
+.bg-orange{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+    p {
+    font-size: 45px;
+    font-family: $title-subtitle;
+    text-align: center;
+   }
+}
+
+.bg-brown img{
+  margin-top:60px;
+}
+
+.bg-brown {
+  padding: 0px;
+}
+
+.bg-orange {
+  padding: 0px;
+}
