@@ -5,11 +5,16 @@
 .bg-orange {
   background-color: $primary-orange;
   height: 90vh;
+  padding: 0px;
 }
 
 .bg-brown {
   background-color: $secondary-brown;
   height: 90vh;
+  padding: 0px;
+  img{
+    margin-top:60px;
+  }
 }
 
 .bg-orange{
@@ -23,14 +28,43 @@
    }
 }
 
-.bg-brown img{
-  margin-top:60px;
+h1{
+  font-family: $title-subtitle;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  #gif-setup {
+    position: absolute;
+    left: 50vw;
+    top: 12vh;
+  }
+  h1 {
+    position: absolute;
+    left: 2.92%;
+    right: 56.11%;
+    text-align: center;
+  }
 }
 
-.bg-brown {
-  padding: 0px;
-}
-
-.bg-orange {
-  padding: 0px;
+@media (max-width: 1023px) {
+  #gif-setup {
+    position: absolute;
+    width: 80vw;
+    height: 35vh;
+    left: 10vw;
+    bottom: 24vh;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .bg-orange {
+    height: 45vh;
+  }
+  .bg-brown {
+    height: 30vh;
+  }
 }
