@@ -3,8 +3,8 @@
 }
 
 .bg-gray{
-  height: 75vh;
   background-color: $bg-gray;
+  padding-bottom: 20px;
 }
 
 .bg-brown {
@@ -40,6 +40,7 @@ h1{
 
 .about-time {
   color: white;
+  height: auto;
   h2 {
     font-family: $title-subtitle;
     font-style: normal;
@@ -68,7 +69,7 @@ h1{
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   #gif-setup {
     position: absolute;
     left: 50vw;
