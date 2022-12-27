@@ -1,19 +1,19 @@
- <div class="container-fluid carousel">
-   <button class=" arrow-left control" aria-label="Previous Image"><%= image_tag("seta-esquerda.png" , :id => "logo") %></button>
-   <div class="galery">
+ <div class="container-fluid carousel" data-controller="carousel">
+   <button class=" arrow-left control" aria-label="Previous Image" data-action="click->carousel#nextSlide" data-carousel-target="button"><%= image_tag("seta-esquerda.png" , :class => "setas") %></button>
+   <div class="gallery" data-carousel-target="gallery">
      <img src="https://source.unsplash.com/random/250x250/?animal" alt="animal" class="item">
      <i class="fa-solid fa-code fa-5x icon"></i>
      <img src="https://source.unsplash.com/random/250x250/?flower" alt="animal" class="item">
     </div>
-    <div class="galery d-none">
+    <div class="gallery d-none" data-carousel-target="gallery">
       <img src="https://source.unsplash.com/random/250x250/?bird" alt="animal" class="item">
       <i class="fa-solid fa-camera fa-5x icon"></i>
       <img src="https://source.unsplash.com/random/250x250/?computer" alt="animal" class="item">
     </div>
-    <div class="galery d-none">
+    <div class="gallery d-none" data-carousel-target="gallery">
       <img src="https://source.unsplash.com/random/250x250/?montain" alt="animal" class="item">
       <i class="fa-solid fa-person-hiking fa-5x icon"></i>
       <img src="https://source.unsplash.com/random/250x250/?waterfall" alt="animal" class="item">
     </div>
-    <button class=" arrow-right control" aria-label="Next Image">   <%= image_tag("seta-direita.png" , :id => "logo") %></button>
+    <button class=" arrow-right control" aria-label="Next Image" data-action="click->carousel#nextSlide" data-carousel-target="button">   <%= image_tag("seta-direita.png" , :class => "setas") %></button>
  </div>
