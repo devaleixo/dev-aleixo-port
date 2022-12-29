@@ -3,7 +3,7 @@ import { Controller } from "@hotwired/stimulus"
 // Connects to data-controller="carousel"
 export default class extends Controller {
   static targets = ["gallery", "button"]
-   static values = {
+  static values = {
     interval: { type: Number, default: 0 },
 
   }

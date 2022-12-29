@@ -11,9 +11,6 @@
   background-color: $secondary-brown;
   height: 90vh;
   padding: 0px;
-  img{
-    margin-top:60px;
-  }
 }
 
 .bg-orange{
@@ -66,13 +63,26 @@ h1{
     margin-top: 5rem;
   }
 }
-
+#codes {
+  position: absolute;
+  width: 843px;
+  height: 500px;
+  left: 25%;
+  margin-top: 5%;
+}
+#future {
+  position: absolute;
+  width: 427px;
+  height: 190px;
+  margin-top: 10%;
+  left: 7%;
+}
 
 @media (min-width: 1200px) {
   #gif-setup {
     position: absolute;
     left: 50vw;
-    top: 12vh;
+    top: 15vh;
   }
   h1 {
     position: absolute;
