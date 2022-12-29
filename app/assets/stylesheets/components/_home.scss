@@ -20,6 +20,12 @@
   background-color: $primary-orange;
   height: 90vh;
   padding: 0px;
+  p{
+    text-decoration: bold;
+    font-family: 'Lobster';;
+    font-size: 6rem;
+    text-align: center;
+  }
 }
 
 .bg-orange2 {
@@ -53,6 +59,26 @@
   }
   .fa-plus {
     margin-right: 5px;
+  }
+}
+
+.bg-orange3 {
+  background-color: $primary-orange;
+  height: 90vh;
+  p{
+    font-family: $title-subtitle;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+  }
+  #name {
+    font-size: 4.5rem;
+    margin-left: 50%;
+  }
+  .content {
+    margin-top: 30%;
   }
 }
 
