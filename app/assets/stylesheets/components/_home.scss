@@ -61,7 +61,12 @@
     margin-right: 5px;
   }
 }
-
+#eu {
+  width: 41.65%;
+  margin: 0;
+  height: 90vh;
+  padding: 0;
+}
 .bg-orange3 {
   background-color: $primary-orange;
   height: 90vh;
@@ -155,9 +160,18 @@ h1{
     left: 10vw;
     bottom: 24vh;
   }
+  .about-time {
+    h2 {
+      text-align:center;
+    }
+  }
+  h3 {
+    text-align: center;
+  }
   h1 {
     font-weight: 400;
     font-size: 4rem;
+
   }
   .bg-orange {
     height: 45vh;
