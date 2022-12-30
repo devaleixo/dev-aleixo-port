@@ -30,7 +30,9 @@
     <p>For now on, since i started the coding bootcamp at Le Wagon’s, and giving a lot of
     time to *CODE*, i wish to get a great job, one that brings me challenges to grow as
     developer and resources to do what i love without big worries.</p>
-    <button class="btn"><i class="fa-solid fa-plus"></i>PROJECTS</button>
+    <%= link_to projects_path, :class => "btn"  do %>
+    <i class="fa-solid fa-plus"></i> PROJECTS
+    <% end %>
     </div>
   </div>
   <div class="row" class="d-flex">
@@ -43,5 +45,10 @@
       </div>
     </div>
      <%= image_tag("provisoria-webcam.jpg" , :id => "eu") %>
+  </div>
+  <div class="row">
+     <div class="col-12 bg-gray2">
+      <%= link_to "PLAY", games_path, :class => "btn2" %>
+     </div>
   </div>
 </div>

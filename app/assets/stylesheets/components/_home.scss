@@ -1,24 +1,9 @@
-.presentation {
-  display: flex;
-}
-
-.bg-gray{
-  background-color: $bg-gray;
-  padding-bottom: 5%;
-}
-
-.bg-brown {
-  background-color: $secondary-brown;
-  height: 90vh;
-  padding: 0px;
-}
-
 .bg-orange{
   display:flex;
   align-items:center;
   justify-content:center;
   background-color: $primary-orange;
-  height: 90vh;
+  height: 100vh;
   padding: 0px;
   p{
     text-decoration: bold;
@@ -26,75 +11,31 @@
     font-size: 6rem;
     text-align: center;
   }
-}
-
-.bg-orange2 {
-  background-color: $primary-orange;
-  height: 90vh;
-  padding: 0px;
-  p{
-    font-style: $title-subtitle;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 11%;
-  }
-  #work {
+  h1{
     font-family: $title-subtitle;
-    font-size: 6.5rem;
-    margin-top: 15%;
-    margin-left: 7%;
-  }
-  .btn {
-    width: 145px;
-    height: 99px;
-    margin-left: 30vw;
-    margin-top: 5%;
-    border: 1px solid black;
-    border-radius: 250px;
-    background-color: #F7B538;
-    box-shadow: 0px 2px 0px #000000;
-    font-family: $buttons;
-    font-size: 1.4rem;
-  }
-  .fa-plus {
-    margin-right: 5px;
-  }
-}
-#eu {
-  width: 41.65%;
-  margin: 0;
-  height: 90vh;
-  padding: 0;
-}
-.bg-orange3 {
-  background-color: $primary-orange;
-  height: 90vh;
-  p{
-    font-family: $title-subtitle;
-    font-style: bold;
     font-weight: 400;
-    font-size: 60px;
-    line-height: 75px;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
     text-align: center;
   }
-  #name {
-    font-size: 4.5rem;
-    margin-left: 50%;
-  }
-  .content {
-    margin-top: 30%;
-  }
-}
 
-h1{
-  font-family: $title-subtitle;
-  font-weight: 400;
-  font-size: 4.5rem;
-  line-height: 5.5rem;
-  text-align: center;
 }
-
+.bg-brown {
+  background-color: $secondary-brown;
+  height: 100vh;
+  padding: 0px;
+}
+.bg-gray{
+  background-color: $bg-gray;
+  height: 70vh
+}
+.bg-gray2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-gray;
+  height: 70vh
+}
 .about-time {
   color: white;
   height: auto;
@@ -123,6 +64,66 @@ h1{
     margin-top: 5rem;
   }
 }
+
+.bg-orange2 {
+  background-color: $primary-orange;
+  height: 100vh;
+  padding: 0px;
+  p{
+    font-style: $title-subtitle;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 11%;
+  }
+  #work {
+    font-family: $title-subtitle;
+    font-size: 6.5rem;
+    margin-top: 15%;
+    margin-left: 7%;
+  }
+  .btn {
+    width: 145px;
+    height: 99px;
+    margin-left: 30vw;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 250px;
+    background-color: #F7B538;
+    box-shadow: 0px 2px 0px #000000;
+    font-family: $buttons;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex
+  }
+  .fa-plus {
+    margin-right: 5px;
+  }
+  .btn:hover {
+    background-color: #ffa600;
+  }
+}
+.bg-orange3 {
+  background-color: $primary-orange;
+  height: 100vh;
+  p{
+    font-family: $title-subtitle;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+  }
+  #name {
+    font-size: 4.5rem;
+    margin-left: 50%;
+  }
+  .content {
+    margin-top: 30%;
+  }
+
+}
 #codes {
   position: absolute;
   width: 600px;
@@ -137,7 +138,31 @@ h1{
   margin-top: 7%;
   left: 7%;
 }
+#eu {
+  width: 41.65%;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
 
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  padding: 10px 12px;
+  position: absolute;
+  width: 124px;
+  height: 72px;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 1s ease;
+  }
+
+  .btn2:hover {
+    color: white;
+  }
 @media (min-width: 1200px) {
   #gif-setup {
     position: absolute;
