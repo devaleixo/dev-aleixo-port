@@ -4,7 +4,6 @@ class CreateNiches < ActiveRecord::Migration[7.0]
       t.boolean :hiring
       t.boolean :freelancer
       t.boolean :work_together
-
       t.timestamps
     end
   end

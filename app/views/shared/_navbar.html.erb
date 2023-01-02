@@ -1,36 +1,34 @@
 <div class="nav-bar sticky-top">
-      <div class="container">
-        <div class="social-links">
-          <ul>
-            <li>
-              <a href="https://github.com/devaleixo" target="_blank">
-                <i class="fa-brands fa-github fa-xl"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/gabriel-aleixo-6b738b234/" target="_blank">
-                <i class="fa-brands fa-linkedin fa-xl"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/0aleixo/" target="_blank">
-                <i class="fa-brands fa-instagram fa-xl"></i>
-              </a>
-            </li>
-          </ul>
-      </div>
-     <%= link_to "#", class: "navbar-brand" do %>
-     <%= image_tag("definitive-logo.png" , :id => "logo") %>
-      <% end %>
-        <div class="dropdown">
-          <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-bars fa-2x"></i>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="/projects">Projects</a></li>
-            <li><a class="dropdown-item" href="/games">Game Room</a></li>
-          </ul>
-        </div>
-      </div>
+    <div class="social-links">
+      <ul>
+        <li>
+          <a href="https://github.com/devaleixo" target="_blank">
+          <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gabriel-aleixo-6b738b234/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/0aleixo/" target="_blank">
+          <i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+        </li>
+      </ul>
     </div>
+    <%= link_to "#", class: "navbar-brand" do %>
+    <%= image_tag("definitive-logo.png" , :id => "logo") %>
+    <% end %>
+    <div class="dropdown">
+      <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Home</a></li>
+        <li><a class="dropdown-item" href="/projects">Projects</a></li>
+        <li><a class="dropdown-item" href="/games">Game Room</a></li>
+      </ul>
+    </div>
+</div>

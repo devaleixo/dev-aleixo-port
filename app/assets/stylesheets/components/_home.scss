@@ -34,7 +34,9 @@
   align-items: center;
   justify-content: center;
   background-color: $bg-gray;
-  height: 70vh
+  height: 70vh;
+  padding: 0;
+  width: 100.4vw;
 }
 .about-time {
   color: white;
@@ -122,7 +124,16 @@
   .content {
     margin-top: 30%;
   }
+}
+.bg-orange4 {
+  background-color: $primary-orange;
+  height: 70vh;
 
+}
+.bg-brown1 {
+    background-color: $secondary-brown;
+    height: 70vh;
+    padding: 0px;
 }
 #codes {
   position: absolute;
@@ -203,5 +214,8 @@
   }
   .bg-brown {
     height: 30vh;
+  }
+  .bg-gray{
+    background-color: $bg-gray;
   }
 }
