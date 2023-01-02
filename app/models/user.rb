@@ -1,3 +1,4 @@
 class User < ApplicationRecord
-  belongs_to :niche
+  has_many :niches
+  validates :email, presence: true, uniqueness: true
 end

@@ -10,17 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_30_160453) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_02_161828) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "niches", force: :cascade do |t|
-    t.boolean "hiring"
-    t.boolean "freelancer"
-    t.boolean "work_together"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "projects", force: :cascade do |t|
     t.string "name"
@@ -34,11 +26,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_30_160453) do
 
   create_table "users", force: :cascade do |t|
     t.string "email"
-    t.bigint "niche_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["niche_id"], name: "index_users_on_niche_id"
+    t.boolean "hiring"
+    t.boolean "freelancer"
+    t.boolean "work_together"
   end
-
-  add_foreign_key "users", "niches", column: "niche_id"
 end

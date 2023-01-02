@@ -48,8 +48,11 @@
   </div>
     <div class="row">
         <div class="col-12 col-lg-12 col-xl-6 bg-brown1">
-        <%= simple_form_for([@user, @niche]) do |f|%>
+        <%= simple_form_for([@user]) do |f|%>
         <%= f.input :email %>
+        <%= f.input :hiring %>
+        <%= f.input :freelancer %>
+        <%= f.input :work_together %>
         <%= f.submit "send", class: "btn btn-primary" %>
         <% end %>
         </div>
