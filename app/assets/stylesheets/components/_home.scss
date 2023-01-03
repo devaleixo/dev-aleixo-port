@@ -128,13 +128,41 @@
 }
 .bg-orange4 {
   background-color: $primary-orange;
-  height: 70vh;
+  height: auto;
 
 }
 .bg-brown1 {
     background-color: $secondary-brown;
-    height: 70vh;
+    height: auto;
     padding: 0px;
+}
+.form{
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  .boxes{
+    font-size: 2rem;
+    font-family: "Limelight";
+  }
+  h2 {
+    font-size: 5rem;
+    font-family: "Limelight";
+    text-align: center;
+  }
+  label {
+    font-family: "limelight";
+  }
+  .form-control{
+    background: black;
+    opacity: 0.5;
+    color: white;
+  }
 }
 #codes {
   position: absolute;
