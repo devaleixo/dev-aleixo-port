@@ -3,7 +3,7 @@
   align-items:center;
   justify-content:center;
   background-color: $primary-orange;
-  height: 100vh;
+  height: 60vh;
   padding: 0px;
   p{
     text-decoration: bold;
@@ -14,7 +14,7 @@
   h1{
     font-family: $title-subtitle;
     font-weight: 400;
-    font-size: 4.5rem;
+    font-size: 8vw;
     line-height: 5.5rem;
     text-align: center;
   }
@@ -22,8 +22,14 @@
 }
 .bg-brown {
   background-color: $secondary-brown;
-  height: 100vh;
+  height: 40vh;
   padding: 0px;
+  #gif-setup {
+    width: 90%;
+    height: 90%;
+    margin-inline: 5%;
+    margin-top: -15vw;
+  }
 }
 .bg-gray{
   background-color: $bg-gray;
@@ -36,7 +42,7 @@
   justify-content: center;
   background-color: $bg-gray;
   height: 70vh;
-  padding: 0;
+  padding-bottom: 8vh;
   width: 100.4vw;
 }
 .about-time {
@@ -47,7 +53,7 @@
     font-style: normal;
     font-size: 6.0rem;
     line-height: 7.3rem;
-    text-align:left;
+    text-align:center;
     margin-left: 5rem;
   }
   h3 {
@@ -70,25 +76,31 @@
 
 .bg-orange2 {
   background-color: $primary-orange;
-  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 40vh;
   padding: 0px;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5%;
+  h2{
+    margin-top: 30%;
+  }
   p{
     font-style: $title-subtitle;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 11%;
+    font-size: 2.5vw;
+    margin-top: 5%;
   }
   #work {
     font-family: $title-subtitle;
-    font-size: 6.5rem;
+    font-size: 7vw;
     margin-top: 15%;
     margin-left: 7%;
   }
   .btn {
     width: 145px;
     height: 99px;
-    margin-left: 30vw;
+    margin-inline:auto;
     margin-top: 5%;
     border: 1px solid black;
     border-radius: 250px;
@@ -109,21 +121,21 @@
 }
 .bg-orange3 {
   background-color: $primary-orange;
-  height: 100vh;
+  height: 55vh;
   p{
     font-family: $title-subtitle;
     font-style: bold;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 5vw;
     line-height: 75px;
     text-align: center;
   }
   #name {
-    font-size: 4.5rem;
+    font-size: 2vw;
     margin-left: 50%;
   }
   .content {
-    margin-top: 30%;
+    margin-top: 10%;
   }
 }
 .bg-orange4 {
@@ -166,22 +178,22 @@
 }
 #codes {
   position: absolute;
-  width: 600px;
-  height: 500px;
+  width: 70%;
+  height: 38%;
   left: 18%;
-  margin-top: 15%;
+  margin-top: 14%;
 }
 #future {
   position: absolute;
-  width: 427px;
-  height: 190px;
-  margin-top: 7%;
-  left: 7%;
+  width: 70%;
+  height: 15%;
+  margin-top: 5%;
+  left: 8%;
 }
 #eu {
-  width: 41.65%;
+  width: 100%;
   margin: 0;
-  height: 100vh;
+  height: 60vh;
   padding: 0;
 }
 
@@ -203,48 +215,48 @@
   .btn2:hover {
     color: white;
   }
-@media (min-width: 1200px) {
-  #gif-setup {
-    position: absolute;
-    left: 50vw;
-    top: 20vh;
-  }
-  h1 {
-    position: absolute;
-    left: 2.92%;
-    right: 56.11%;
-    text-align: center;
-  }
-}
+// @media (min-width: 1200px) {
+//   #gif-setup {
+//     position: absolute;
+//     left: 50vw;
+//     top: 20vh;
+//   }
+//   h1 {
+//     position: absolute;
+//     left: 2.92%;
+//     right: 56.11%;
+//     text-align: center;
+//   }
+// }
 
-@media (max-width: 1200px) {
-  #gif-setup {
-    position: absolute;
-    width: 80vw;
-    height: 35vh;
-    left: 10vw;
-    bottom: 24vh;
-  }
-  .about-time {
-    h2 {
-      text-align:center;
-    }
-  }
-  h3 {
-    text-align: center;
-  }
-  h1 {
-    font-weight: 400;
-    font-size: 4rem;
+// @media (max-width: 1200px) {
+//   #gif-setup {
+//     position: absolute;
+//     width: 80vw;
+//     height: 35vh;
+//     left: 10vw;
+//     bottom: 24vh;
+//   }
+//   .about-time {
+//     h2 {
+//       text-align:center;
+//     }
+//   }
+//   h3 {
+//     text-align: center;
+//   }
+//   h1 {
+//     font-weight: 400;
+//     font-size: 4rem;
 
-  }
-  .bg-orange {
-    height: 45vh;
-  }
-  .bg-brown {
-    height: 30vh;
-  }
-  .bg-gray{
-    background-color: $bg-gray;
-  }
-}
+//   }
+//   .bg-orange {
+//     height: 45vh;
+//   }
+//   .bg-brown {
+//     height: 30vh;
+//   }
+//   .bg-gray{
+//     background-color: $bg-gray;
+//   }
+// }
