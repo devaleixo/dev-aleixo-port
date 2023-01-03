@@ -121,7 +121,7 @@
 }
 .bg-orange3 {
   background-color: $primary-orange;
-  height: 55vh;
+  height: 45vh;
   p{
     font-family: $title-subtitle;
     font-style: bold;
@@ -145,15 +145,17 @@
 }
 .bg-brown1 {
     background-color: $secondary-brown;
-    height: auto;
+    height: 60vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     padding: 0px;
 }
 .form{
   display: flex;
   flex-flow: column nowrap;
   position: absolute;
-  margin-top: 10%;
-  margin-left: 30%;
+  margin-top: 5%;
   width: 30%;
   align-items: center;
   justify-content: center;
@@ -161,6 +163,7 @@
   .boxes{
     font-size: 2rem;
     font-family: "Limelight";
+    margin-top: 8%;
   }
   h2 {
     font-size: 5rem;
@@ -174,6 +177,9 @@
     background: black;
     opacity: 0.5;
     color: white;
+  }
+  .btn-form {
+    margin-left: 47%;
   }
 }
 #codes {

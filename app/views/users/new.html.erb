@@ -53,11 +53,11 @@
         <%= f.input :email, label: "Email Please!", required: false %>
         <h2>In the future, you may want for:</h2>
         <div class="d-flex boxes">
+          <%= f.input :work_together, label: "Work With Me Developing an App" %>
           <%= f.input :hiring, label: "Hire for your company" %>
           <%= f.input :freelancer, label: "Contract Freelancer Work" %>
-          <%= f.input :work_together, label: "Work With Me Developing an App" %>
         </div>
-        <%= f.submit "send", class: "btn btn-primary" %>
+        <%= f.submit "send", class: "btn btn-secondary btn-form" %>
         <% end %>
       </div>
     </div>
