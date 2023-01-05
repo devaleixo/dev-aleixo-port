@@ -14,7 +14,7 @@
   h1{
     font-family: $title-subtitle;
     font-weight: 400;
-    font-size: 8vw;
+    font-size: 3vh;
     line-height: 5.5rem;
     text-align: center;
   }
@@ -24,11 +24,15 @@
   background-color: $secondary-brown;
   height: 40vh;
   padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   #gif-setup {
-    width: 90%;
+    width: 60vh;
     height: 90%;
-    margin-inline: 5%;
-    margin-top: -15vw;
+    margin-top: -40vh;
+    max-width: 480px;
+    max-height: 400px;
   }
 }
 .bg-gray{
@@ -51,7 +55,7 @@
   h2 {
     font-family: $title-subtitle;
     font-style: normal;
-    font-size: 6.0rem;
+    font-size: 6vh;
     line-height: 7.3rem;
     text-align:center;
     margin-left: 5rem;
@@ -59,7 +63,7 @@
   h3 {
     font-family: $title-subtitle;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2vh;
     line-height: 3rem;
     margin-top: 5rem;
     margin-left: 5rem;
@@ -67,7 +71,7 @@
   p {
     font-family: $texts;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2vh;
     line-height: 3.2rem;
     text-align: center;
     margin-top: 5rem;
@@ -88,12 +92,12 @@
   }
   p{
     font-style: $title-subtitle;
-    font-size: 2.5vw;
+    font-size: 1.2vh;
     margin-top: 5%;
   }
   #work {
     font-family: $title-subtitle;
-    font-size: 7vw;
+    font-size: 5vh;
     margin-top: 15%;
     margin-left: 7%;
   }
@@ -155,7 +159,7 @@
   display: flex;
   flex-flow: column nowrap;
   position: absolute;
-  margin-top: 5%;
+  margin-top: 10%;
   width: 30%;
   align-items: center;
   justify-content: center;
