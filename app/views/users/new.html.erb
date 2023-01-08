@@ -51,11 +51,11 @@
       <div class="form">
         <%= simple_form_for([@user]) do |f|%>
         <%= f.input :email, label: "Email Please!", required: false %>
-        <h2>In the future, you may want for:</h2>
+        <h2>In the future, you may look for:</h2>
         <div class="d-flex boxes">
-          <%= f.input :work_together, label: "Work With Me Developing an App" %>
-          <%= f.input :freelancer, label: "Contract Freelancer Work" %>
-          <%= f.input :hiring, label: "Someone to Hire" %>
+          <%= f.input :freelancer, label: "Freelancer Work" %>
+          <%= f.input :hiring, label: "Hire" %>
+          <%= f.input :work_together, label: "Develop something together" %>
         </div>
         <%= f.submit "send", class: "btn btn-secondary btn-form" %>
         <% end %>
