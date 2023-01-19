@@ -5,3 +5,22 @@
 .btn-outline-light:hover{
   background-color: black;
 }
+
+#email {
+  margin: 0;
+  font-size: 3rem;
+  font-style: $title-subtitle;
+}
+
+.email-f{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 40rem;
+  margin: 10px auto;
+
+}
+
+.fa-envelope{
+  color: white;
+}
