@@ -15,7 +15,6 @@
     font-family: $title-subtitle;
     font-weight: 400;
     font-size: 3vh;
-    line-height: 5.5rem;
     text-align: center;
   }
 
@@ -226,6 +225,133 @@
   .btn2:hover {
     color: white;
   }
+
+
+  @media (min-width: 768px) {
+    .bg-orange {
+      height: 100vh;
+    }
+    .bg-brown {
+      height: 100vh;
+    }
+    h1 {
+      position: absolute;
+      left: 2.92%;
+      right: 56.11%;
+      text-align: left;
+      font-size: 3.5vw !important;
+      font-weight: 300 !important;
+      word-spacing: 5px;
+      letter-spacing: 5px;
+    }
+    .bg-orange2 {
+      height: 100vh;
+      #work{
+        font-family: "Limelight";
+        font-size: 4.5vw;
+        margin-top: 7vw;
+        margin-left: 0 !important;
+      }
+      p{
+        position: absolute;
+        text-align: center;
+        font-size: 2vw;
+        margin-inline: 7%;
+        margin-top: 18%;
+        padding-left: 5vw;
+
+      }
+      .btn {
+        width: 8vw;
+        height: 5vw;
+        margin-top: 28vw;
+        margin-left: 27.5vw;
+      }
+      }
+      #gif-setup {
+        position: absolute;
+        left: 50vw;
+        top: 20vh;
+        margin-top: 0px !important;
+        max-width: 830px !important;
+        max-height: 760px !important;
+      }
+      #codes {
+      position: absolute;
+      width: 40vw;
+      height: 40vw;
+      left: 10%;
+      margin-top: 12%;
+      max-height: 763.5px;
+      }
+      #future {
+      position: absolute;
+      height: 12vw;
+      width: 30vw;
+      left: 5%;
+      margin-top: -30%;
+      max-height: 227.5px;
+      }
+      #eu {
+        width: 41.6%;
+        height: 70vh;
+      }
+      .bg-orange3{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-size: 3vw;
+          margin-inline: 20px;
+
+        }
+        #name {
+          font-size: 2vw;
+        }
+      }
+      .bg-brown1 {
+        .form {
+        margin-left: 55%;
+        position: absolute;
+        width: 50vw;
+        .form-control {
+          opacity: 3;
+          font-size: 3rem;
+          height: 40px;
+        }
+        }
+        .boxes {
+          margin-top: 3%;
+        }
+        .btn-form {
+          font-size: 15px;
+          margin-left: 41%;
+          width: 3vw;
+          height: 2vw;
+          background-color: black;
+        }
+        h2 {
+          text-align: left;
+        }
+        .form-check-input {
+          background-color: gray;
+        }
+      }
+ }
+
+@media (max-width:1500px) {
+  #gif-setup {
+    width: 50vh !important;
+  }
+}
+
+
+@media (max-width:1200px) {
+  #gif-setup {
+    width: 35vh !important;
+  }
+}
 // @media (min-width: 1200px) {
 //   #gif-setup {
 //     position: absolute;
